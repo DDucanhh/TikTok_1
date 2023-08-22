@@ -119,6 +119,16 @@
 .explore p {
   font-size: 18px;
   font-weight: 600;
+  text-decoration: none;
+}
+.explore a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.explore a i {
+  margin-right: 12px;
 }
 .following div {
   display: flex;
@@ -250,15 +260,17 @@
 .conven {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 10px;
   margin-left: 16px;
-  margin-top: 250px;
+  margin-top: 220px;
+  align-items: center;
 }
 .conven div {
   padding: 15px 15px;
   background-color: #f1f1f2;
   border-radius: 50%;
 }
+
 .conven div i {
   font-size: 20px;
 }
@@ -313,6 +325,11 @@
   margin-top: 67px;
   margin-left: 170px;
 }
+.data {
+  font-size: 13px;
+  color: #4a5961;
+  font-weight: 600;
+}
 /* ads */
 .backg-ads {
   background-image: url(/picture/full-shot-woman-posing-with-red-background.jpg);
@@ -348,7 +365,7 @@
   font-weight: 800;
 }
 .join {
-  padding: 25px 50px;
+  padding: 25px 40px;
   margin-left: 80px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -357,3 +374,16 @@
   border: none;
   background-color: white;
 }
+/* explore */
+/* .content-r-more {
+  width: 780px;
+  height: 100vh;
+  margin-left: 210px;
+}
+.content-r .ex .ex-top p {
+  margin-top: 80px;
+  width: 100%;
+}
+.content-e-more {
+  right: 100px;
+} */

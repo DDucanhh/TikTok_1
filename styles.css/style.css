@@ -1,10 +1,11 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  /* background-color: rgb(27, 0, 205); */
+  /* background-color: white; */
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #fe2c55; */
 }
 .logo {
   width: 50px;
@@ -375,15 +376,29 @@
   background-color: white;
 }
 /* explore */
-/* .content-r-more {
-  width: 780px;
-  height: 100vh;
-  margin-left: 210px;
+.content-r-more {
+  margin-top: 95px;
+  margin-left: 290px;
+  width: 950px;
 }
-.content-r .ex .ex-top p {
-  margin-top: 80px;
-  width: 100%;
+.content-r-more div {
+  display: flex;
+  gap: 16px;
 }
-.content-e-more {
-  right: 100px;
-} */
+.content-r-more div a button {
+  padding: 8px 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+.content-r-more div button i {
+  margin-right: 6px;
+}
+.Dance {
+  background-color: #161823;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 13px;
+  border: none;
+}

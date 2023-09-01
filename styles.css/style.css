@@ -411,8 +411,8 @@
 /* explore */
 .content-r-more {
   margin-top: 95px;
-  margin-left: 420px;
-  width: 950px;
+  margin-left: 320px;
+  width: 1200px;
 }
 .content-r-more div {
   display: flex;
@@ -434,4 +434,47 @@
   border-radius: 5px;
   padding: 8px 13px;
   border: none;
+}
+.viddeo .fa img {
+  width: 270px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.viddeo {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.viddeo .fa {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+.con-1 {
+  font-weight: 600;
+}
+.con-2 {
+  display: flex;
+  margin-top: -10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.con-2 .con-2h {
+  font-weight: 200;
+}
+.con-2 .con-2e {
+  font-weight: 200;
+  color: #7a7b82;
+}
+.con-2h i {
+  font-size: 20px;
+}
+.con-2e i {
+  margin-right: 3px;
 }
